@@ -12,7 +12,6 @@ export default defineConfig({
     }
   },
   server: {
-    port: 5005,
-    open: '/Confeitaria/index.html'  // Abre o arquivo home.html quando o servidor iniciar
+    port: 5005
   }
 });
