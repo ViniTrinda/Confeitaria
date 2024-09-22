@@ -7,12 +7,12 @@ export default defineConfig({
     outDir: 'dist',  // Diretório de saída
     rollupOptions: {
       input: {
-        main: './home.html',  // Página principal
+        main: './index.html',  // Página principal
       }
     }
   },
   server: {
     port: 5005,
-    open: '/Confeitaria/home.html'  // Abre o arquivo home.html quando o servidor iniciar
+    open: '/Confeitaria/index.html'  // Abre o arquivo home.html quando o servidor iniciar
   }
 });
