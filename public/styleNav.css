@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Lobster+Two&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root {
+    --verde: #d8e2dc;
+    --amarelo: #ffe5d9;
+    --rosaClaro: #ffcad4;
+    --rosaMedio: #f4acb7;
+    --roxo: #9d8189;
+    --roxoEscuro: #46393d;
+}
+
+.top{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulo{
+    font-family: "lobster two", system-ui;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    transition: 0.4s;
+    color: var(--roxoEscuro);
+}
+
+.titulo:hover{
+    cursor: pointer;
+    scale: 1.025;
+}
+
+.links{
+    font-family: "Geologica", system-ui;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.links ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul li{
+    transition: 0.4s;
+    font-size: 20px;
+    color: var(--roxo);
+}
+
+.links ul li:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.links ul li i{
+    font-size: 22px;
+}

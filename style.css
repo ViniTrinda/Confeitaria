@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Lobster+Two&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --verde: #d8e2dc;
+  --amarelo: #ffe5d9;
+  --rosaClaro: #ffcad4;
+  --rosaMedio: #f4acb7;
+  --roxo: #9d8189;
+  --roxoEscuro: #46393d;
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh ;
+}
+
+.header{
+  height: 7vh;
+  border: solid 1px red;
+}
