@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Lobster+Two:ital,wght@0,400;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Lobster+Two:ital,wght@0,400;1,400;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -16,20 +16,20 @@
   --roxoEscuro: #46393d;
 }
 
-html{
+html {
   height: fit-content;
 }
-body{
+body {
   width: 100vw;
   height: fit-content;
   overflow-x: hidden;
 }
 
-.header{
+.header {
   height: 7vh;
 }
 
-.welcome{
+.welcome {
   height: 93vh;
   width: 100%;
   position: relative;
@@ -38,7 +38,7 @@ body{
   justify-content: center;
 }
 
-.background{
+.background {
   height: 93vh;
   width: 100%;
   overflow: hidden;
@@ -48,7 +48,7 @@ body{
   z-index: -1000;
 }
 
-.menu{
+.menu {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -59,54 +59,52 @@ body{
   gap: 7vh;
   backdrop-filter: blur(4px);
 }
-.menu h1{
+.menu h1 {
   font-size: 150px;
   font-family: "lobster two", system-ui;
   font-style: italic;
   color: #fff;
 }
 
-.menu button{
+.menu button {
   padding: 10px 75px;
   background-color: var(--rosaMedio);
   border-radius: 7px;
   border: none;
-  font-family: 'Geologica', system-ui;
+  font-family: "Geologica", system-ui;
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   transition: 0.25s;
 }
 
-.menu button:hover{
+.menu button:hover {
   cursor: pointer;
   background-color: var(--roxo);
 }
 
-.destaques{
+.destaques {
   height: fit-content;
   display: flex;
   align-items: center;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   flex-direction: column;
   padding: 0;
   margin: 0;
 }
 
-#title-destaques{
+#title-destaques {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 50px;
-  font-family: 'lobster two', system-ui;
+  font-family: "lobster two", system-ui;
   font-size: 40px;
   color: var(--roxo);
   background-color: var(--amarelo);
-
 }
-
 
 .images {
   display: flex;
@@ -118,7 +116,7 @@ body{
   background-color: var(--amarelo);
 }
 
-.image{
+.image {
   height: 20%;
   display: flex;
   gap: 10%;
@@ -132,31 +130,31 @@ body{
   font-weight: 600;
 }
 
-.image div{
+.image div {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: c;
 }
 
-.image img{
+.image img {
   max-width: 450px;
   transition: 0.3s;
 }
 
-.image img:hover{
+.image img:hover {
   cursor: pointer;
   scale: 1.05;
 }
 
-.rodape{
+.rodape {
   height: fit-content;
   width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.rodape img{
+.rodape img {
   max-width: 400px;
   position: absolute;
   right: 130px;
@@ -164,40 +162,39 @@ body{
   z-index: 10000;
 }
 
-.fundo{
+.fundo {
   height: 12vh;
   background-color: var(--amarelo);
   z-index: -10;
 }
 
-.faixa{
+.faixa {
   height: 10vh;
   width: 100%;
 }
-.blur{
+.blur {
   height: 100%;
   width: 100%;
   backdrop-filter: blur(6px);
-  font-family: 'lobster two', system-ui;
+  font-family: "lobster two", system-ui;
   font-size: 30px;
   color: #fff;
   font-style: italic;
   font-weight: 600;
   display: flex;
   align-items: center;
-
 }
-.blur p{
+.blur p {
   margin-left: 30%;
 }
-.brownie{
+.brownie {
   height: 100%;
   width: 100%;
   background-image: url(img/brownie.jpg);
   z-index: -10;
 }
 
-.social{
+.social {
   height: 18vh;
   width: 100%;
   background-color: var(--roxo);
@@ -206,25 +203,25 @@ body{
   align-items: center;
 }
 
-.contact{
+.contact {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 25%;
   height: 80%;
-  font-family: 'geologica', system-ui;
+  font-family: "geologica", system-ui;
   font-size: 20px;
   font-weight: 300;
   color: #d8e2dc;
   margin-left: 10%;
 }
 
-.contact i{
+.contact i {
   font-size: 25px;
   margin-right: 5px;
 }
 
-.lado1{
+.lado1 {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -232,7 +229,7 @@ body{
   gap: 20px;
 }
 
-.lado2{
+.lado2 {
   display: flex;
   flex-direction: column;
   height: 100%;
