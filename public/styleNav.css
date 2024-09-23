@@ -18,18 +18,18 @@
 }
 
 .top{
-    height: 100%;
+    height: 7vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .titulo{
     font-family: "lobster two", system-ui;
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 5px;
     font-weight: 100;
     transition: 0.4s;
     color: var(--roxoEscuro);
@@ -42,7 +42,7 @@
 
 .links{
     font-family: "Geologica", system-ui;
-    margin-right: 30px;
+    margin-right: 50px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -67,3 +67,4 @@
 .links ul li i{
     font-size: 22px;
 }
+
